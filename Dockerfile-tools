@@ -9,7 +9,7 @@ WORKDIR /opt/app-root/src
 COPY . /opt/app-root/src
 
 CMD ["/bin/bash"]
-ARG bx_dev_user=root
+ARG bx_dev_user=mchowdhury244
 ARG bx_dev_userid=1000
 RUN BX_DEV_USER=$bx_dev_user
 RUN BX_DEV_USERID=$bx_dev_userid
